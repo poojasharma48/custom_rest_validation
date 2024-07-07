@@ -1,0 +1,5 @@
+services:
+  custom_rest_validation.custom_rest_validation_subscriber:
+    class: '\Drupal\custom_rest_validation\EventSubscriber\CustomExceptionSubscriber'
+    tags:
+      - { name: event_subscriber }

@@ -1,0 +1,5 @@
+name: Alter exception msg of core Rest API
+type: module
+description: Example to alter exception msg of core user register Rest API.
+package: Custom
+core_version_requirement: ^8 || ^9 || ^10
